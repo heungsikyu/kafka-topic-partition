@@ -11,7 +11,7 @@ async function run(){
         });
 
         const consumer = kafka.consumer({
-            "groupId": "test"
+            "groupId": "group2"
         });
         console.log('consumer Connecting.......');
         await consumer.connect();
